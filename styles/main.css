@@ -7275,7 +7275,11 @@ a.credit {
   padding-bottom: 0;
 }
 
-#portfolio, #reference {
+#portfolio{
+  display: none;
+}
+
+#reference {
   display: none;
 }
 
