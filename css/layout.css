@@ -25,7 +25,8 @@
 /* Colors RED
 
 Dark:   #7f0000
-Normal: #b71c1c 
+Normal old: #b71c1c 
+Normal: #e8554e
 Light:  #f05545
 
 */
@@ -135,7 +136,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #b71c1c; }
+header .scrolldown a:hover { color: #e8554e; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -242,7 +243,7 @@ ul#nav li.current a { color: #f05545; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #b71c1c;
+   background: #e8554e;
    color: #2B2B2B;
 }
 #about .download .button i {
@@ -426,7 +427,7 @@ ul#nav li.current a { color: #f05545; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #b71c1c;
+  	background: #e8554e   ;
    display: inline-block;
   	height: 15px;
    line-height: 15px;
@@ -449,7 +450,7 @@ ul#nav li.current a { color: #f05545; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   border-bottom:2px solid #b71c1c;
+   border-bottom:2px solid #7f0000;
    color: #fff;
 }
 
@@ -565,12 +566,12 @@ ul#nav li.current a { color: #f05545; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #474747;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #474747;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
@@ -591,7 +592,7 @@ ul#nav li.current a { color: #f05545; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #b71c1c; }
+.popup-modal a:hover {	color: #e8554e; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -975,7 +976,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #b3b3b3; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #e8554e; }
 
 /* copyright */
 footer .copyright {
