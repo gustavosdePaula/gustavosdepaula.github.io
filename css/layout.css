@@ -363,7 +363,7 @@ ul#nav li.current a { color: #f05545; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'opensans-bold', sans-serif ;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -423,7 +423,7 @@ ul#nav li.current a { color: #f05545; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #7f0000;
+  	background: #b71c1c;
    display: inline-block;
   	height: 15px;
    line-height: 15px;
@@ -453,7 +453,7 @@ ul#nav li.current a { color: #f05545; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   /* background: #fff; */
    overflow: hidden;
    position: relative;
 
@@ -513,17 +513,15 @@ ul#nav li.current a { color: #f05545; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
-   /* height:150px; */
 }
 
 .portfolio-item .item-wrap .img-size{
   /* height:302px;
   width:302px; */
   /* max-height: 330px; */
-  /* max-width: 300px; */
-  size: cover;
-  display: inline-block;
+  max-width: 89.75%;
 }
+
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
