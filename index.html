@@ -29,6 +29,20 @@
    ================================================== -->
     <script src="js/modernizr.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127665020-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127665020-1');
+    </script>
+
+
     <!-- Favicons
 	================================================== -->
     <link rel="shortcut icon" href="favicon.png">
@@ -44,7 +58,7 @@
         <nav id="nav-wrap">
 
             <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a class="mobile-btn" href="#"  title="Hide navigation">Hide navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
             <ul id="nav" class="nav">
                 <li class="current">
@@ -1129,9 +1143,9 @@
                 </ul>
 
                 <ul class="copyright">
-                    <li>&copy; Copyright 2014 CeeVee</li>
+                    <!-- <li>&copy; Copyright 2014 CeeVee</li> -->
 
-                    <li>Made with
+                    <li>&copy; Copyright 2018 Made with
                         <span style="color: #e25555;">&hearts;</span> by Gustavo S. de Paula using template
                         <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a>
                     </li>
