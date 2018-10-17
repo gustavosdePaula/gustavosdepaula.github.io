@@ -290,14 +290,14 @@ ul#nav li.current a { color: #f05545; }
 
 .cc-profile-image a:before {
   content: "";
-  border: 5px solid rgba(183, 28, 28, 0.6);
+  border: 2px solid rgba(183, 28, 28, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
   position: absolute;
   left: 0;
-  -webkit-animation: pulsate 2.5s ease-out;
-          animation: pulsate 2.5s ease-out;
+  -webkit-animation: pulsate 5s ease-out;
+          animation: pulsate 5s ease-out;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   opacity: 0.0;
