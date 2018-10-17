@@ -41,7 +41,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/bcg0.gif) no-repeat top center;
+   background: #161415 url(../images/bcg.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -55,7 +55,7 @@ header .overColor{
   width: 100%;
   height: 100%;
   /* background: rgba(183, 28, 28, 0.2); */
-  background: rgba(0,0,0, 0.5);
+  background: rgba(0,0,0, 0.6);
 }
 
 /* vertically center banner section */
@@ -289,14 +289,14 @@ ul#nav li.current a { color: #f05545; }
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(183, 28, 28, 0.6);
+  border: 5px solid rgba(183, 28, 28, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
   position: absolute;
   left: 0;
-  -webkit-animation: pulsate 1.6s ease-out;
-          animation: pulsate 1.6s ease-out;
+  -webkit-animation: pulsate 2.5s ease-out;
+          animation: pulsate 2.5s ease-out;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   opacity: 0.0;
@@ -338,7 +338,7 @@ ul#nav li.current a { color: #f05545; }
    overflow: hidden;
 }
 
-#resume a{ color: #313131; }
+#resume a{ color: #707070; }
 #resume a:hover { color: #f05545; }
 
 #resume h1 {
@@ -349,6 +349,9 @@ ul#nav li.current a { color: #f05545; }
 #resume h1 span {
    border-bottom: 3px solid #7f0000;
    padding-bottom: 6px;
+}
+#resume h3 i{
+  font-size: 10px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -449,6 +452,7 @@ ul#nav li.current a { color: #f05545; }
    border-bottom:2px solid #b71c1c;
    color: #fff;
 }
+
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
