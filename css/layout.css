@@ -473,8 +473,8 @@ ul#nav li.current a { color: #f05545; }
    position: absolute;
    left: 0;
    top: 0;
-   /* width: 100%; */
-   width: 89.75%;
+   width: 100%;
+   /* width: 89.75%; */
    height: 100%;
 
 	opacity: 0;
@@ -520,7 +520,7 @@ ul#nav li.current a { color: #f05545; }
   /* height:302px;
   width:302px; */
   /* max-height: 330px; */
-  max-width: 89.75%;
+  /* max-width: 89.75%; */
 }
 
 .portfolio-item .portfolio-item-meta { padding: 18px }
