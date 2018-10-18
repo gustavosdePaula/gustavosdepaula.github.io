@@ -349,6 +349,9 @@
 
    /* header styles
    -------------------------------------------------------------------- */
+   header {    
+    min-height: 725px;
+   }
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
