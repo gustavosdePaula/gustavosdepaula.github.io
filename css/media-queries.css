@@ -375,7 +375,7 @@
 
 /* mobile narrow
   -------------------------------------------------------------------------- */
-  @media only screen and (max-width: 330px) {
+  @media only screen and (max-width: 400px) {
     header {    
       min-height: 725px;
     }
