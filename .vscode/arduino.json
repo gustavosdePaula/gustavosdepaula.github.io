@@ -1,0 +1,5 @@
+{
+    "board": "Arduino_STM32:STM32F1:mapleMini",
+    "configuration": "bootloader_version=original,cpu_speed=speed_72mhz,opt=osstd",
+    "port": "COM1"
+}
