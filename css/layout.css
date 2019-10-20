@@ -248,6 +248,10 @@ ul#nav li.current a { color: #f05545; }
    background: #e8554e;
    color: #2B2B2B;
 }
+#about .download .disabled {
+   cursor: not-allowed;
+}
+
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
