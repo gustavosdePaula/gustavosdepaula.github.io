@@ -225,7 +225,7 @@ ul#nav li.current a { color: #f05545; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #dadada;
    text-align: justify;
 }
 .profile-pic {
@@ -414,10 +414,10 @@ ul#nav li.current a { color: #f05545; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 10px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
 	font-weight: normal;
    position: relative;
 	top: -36px;
@@ -435,14 +435,30 @@ ul#nav li.current a { color: #f05545; }
    line-height: 15px;
    border-radius: 3px 3px 3px 3px;
 }
+@media screen and (min-width: 768px) {
+
+   .remove-left {
+      margin-right: 10%;
+   }
 
 }
+@media screen and (min-width: 1000px) {
+
+   .bars li em {
+      font: 12px 'opensans-bold', sans-serif;
+   }
+
+
+}
+
+
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -473,6 +489,7 @@ ul#nav li.current a { color: #f05545; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+   z-index: -1;
 }
 
 /* overlay */
@@ -528,6 +545,9 @@ ul#nav li.current a { color: #f05545; }
   width:302px; */
   /* max-height: 330px; */
   /* max-width: 89.75%; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .portfolio-item .portfolio-item-meta { padding: 18px }
@@ -617,6 +637,26 @@ ul#nav li.current a { color: #f05545; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. certification Section
+/* ------------------------------------------------------------------ */
+
+#certification {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+
+#certification h1 span {
+   font: 24px/30px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   border-bottom: 2px solid #7f0000;
+   color: #000;
 }
 
 /* ------------------------------------------------------------------ */
